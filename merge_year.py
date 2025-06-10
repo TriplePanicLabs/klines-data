@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# pragma python =3.13.3
+# $ python3 merge_year.py
+
 import os
 import pandas as pd
 
@@ -23,4 +27,4 @@ def merge(symbol: str, year: str):
     print(f'✅ Объединено {len(csv_files)} файлов в {output_file}')
 
 
-merge('ETHUSDT', '2022')
+merge('ETHUSDT', '2024')
